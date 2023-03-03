@@ -1,0 +1,39 @@
+/* 
+.hink{
+    font-family: 'Comfortaa', cursive !important;
+    color:black !important;
+}
+
+.bg-custom-2 {
+    background-image:  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,254,255,1) 30%, rgba(243,224,255,1) 100%);
+    }
+
+ */
+
+
+
+/*     
+    .container-fluid{
+    height: 100%  !important;
+    background-color: #ffffff;
+    width: 940px !important;
+    max-width: 100vw !important;
+    
+}
+
+.ul {
+    display: table !important;
+    margin: 0 auto !important;
+  } */
+
+
+.lin{
+    position: absolute !important; left: 50% !important; transform: translateX(-50%) !important; margin: 0px !important;
+
+
+}
+
+.navbar {
+    box-shadow: none !important;
+  }
+  

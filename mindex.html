@@ -32,15 +32,18 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body >
 
 
-
+  
     <nav
-      class="navbar sticky-top navbar-expand-md navbar-light bg-light py-2 px-sm-5"
+    style="background-color: #ffffff;
+    background-image: linear-gradient(43deg, #ffffff 0%, #f5c6ff 46%, #f7f1e7 100%);
+    
+    " class="navbar    sticky-top navbar-expand-md navbar-light bg-light py-0 px-sm-5" 
     >
-      <div class="container  bg-light sticky-top">
-        <a class="navbar-brand" href="#">
+      <div class="container    sticky-top">
+        <a class="navbar-brand" href="mindex.html">
           <img
             src="astx.png"
             alt=""
@@ -67,11 +70,12 @@
           <ul class="navbar-nav ms-auto mb-lg-0">
             <li class="nav-item">
               <a
-                class="hink fs-5 nav-link btn-hover color-8 mt-1"
-                aria-current="page"
-                href="#"
-                ><p class="mb-0">Home</p></a
-              >
+  class="hink fs-5 nav-link btn-hover color-8 mt-1 fade-on-hover"
+  aria-current="page"
+  href="mindex.html"
+  ><p class="mb-0">Home</p></a
+>
+
             </li>
             <li class="nav-item">
               <a
@@ -119,39 +123,45 @@
     </nav>
 
 
-
-    <div class="container text-center mt-4">
+    <div class="container  mt-4 py-0 bg-white parallax">
       <div class="row">
-        <div class=" col-md-6 mt-1" >
-          <div class="d-flex justify-content-center align-items-center" style="height: 50vh;">
-            <div class="col">
-              <div class="row-md-6">
-                <div class="col">
-                  <h1>Programming is MORE difficult Now! Join NOW or Hold Your Silence FOREVER</h1>
-                  <p> 
-                  </p>
-                </div>
-              </div>
+        <div class=" d-flex col-md-6 mt-1" >
+          <div class="row  align-items-center">
+            <div class=" align-items-center" >
+            <div class="col " style="display: flex !important ; align-items: center ; ">
+                  <h1 class="white" style="background: #1F1F1F;
+                  background: linear-gradient(to bottom right, #1F1F1F 0%, #919191 100%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  
+                  
+                  
+                  
+                  
+                  ">Programming is MORE difficult Now! Join NOW or Hold Your Silence FOREVER</h1>
+
+
             </div>
           </div>
-          
+        </div>
         </div>
 
-        <div class="col-md-6   mt-1">
-          <img src="ulmi.png" class="img-fluid" alt="">
+        <div class="col-md-6  rounded mt-1">
+          <img src="https://asterisc.in/wp-content/uploads/2021/07/IMG_9934-768x512.jpg" class="img-fluid rounded-6" alt="">
         </div>
       </div>
     </div>
 
 
-    <div class="container text-center mt-4">
-      <div class="row">
-        <div class="col-md-6 mt-1">
-          <div class="ratio ratio-16x9">
+    <div class="container  mt-2 bg-image parallax" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg')">
+      <div class="row" >
+        <div class="col-md-6 mt-1 align-items-center">
+          <div class="ratio align-items-center ratio-16x9">
             <iframe
               src="https://www.youtube.com/embed/vlDzYIIOYmM"
               title="YouTube video"
               allowfullscreen
+              class="align-items-center"
             ></iframe>
           </div>
           
@@ -162,8 +172,353 @@
             Build App during lockdown and earn profit
             </p>
         </div>
+      </div>  
+    </div>
+
+
+
+
+
+
+    <div class="container mt-4 text-center ">
+    
+
+      <!-- Carousel wrapper -->
+    <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+  <!-- Controls -->
+  <div class="d-flex justify-content-center mb-3">
+    <div class="pt-3"><h1>Trending Courses
+    </h1></div>
+    <button class="carousel-control-prev position-relative" type="button"
+      data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next position-relative" type="button"
+      data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <!-- <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Anna Deynah</h5>
+            <p>UX Designer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+              officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">John Doe</h5>
+            <p>Web Developer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+              suscipit laboriosam, nisi ut aliquid commodi.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Maria Kate</h5>
+            <p>Photographer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+              praesentium voluptatum deleniti atque corrupti.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"><div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="https://asterisc.in/wp-content/uploads/elementor/thumbs/we-are-looking-for...-p8bku0eop2sryxu1nxb8ciy94fa85c1d15saxkbc5m.png" class="img-fluid"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 d-none d-lg-block"><div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="https://asterisc.in/wp-content/uploads/elementor/thumbs/we-are-looking-for...-p8bku0eop2sryxu1nxb8ciy94fa85c1d15saxkbc5m.png" class="img-fluid"/>
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#!" class="btn btn-primary">Button</a>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="col-md-3 d-none d-lg-block"><div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://asterisc.in/wp-content/uploads/elementor/thumbs/we-are-looking-for...-p8bku0eop2sryxu1nxb8ciy94fa85c1d15saxkbc5m.png" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="col-md-3 d-none d-lg-block"><div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="https://asterisc.in/wp-content/uploads/elementor/thumbs/we-are-looking-for...-p8bku0eop2sryxu1nxb8ciy94fa85c1d15saxkbc5m.png" class="img-fluid"/>
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#!" class="btn btn-primary">Button</a>
+          </div>
+          </div>
+  
+          
+          </div>
+
+
+        </div>
       </div>
     </div>
+
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"><div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="https://asterisc.in/wp-content/uploads/2020/07/hack-capital-uv5_bsypFUM-unsplash-1024x683.jpg" class="img-fluid"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 d-none d-lg-block"><div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="https://asterisc.in/wp-content/uploads/2020/07/hack-capital-uv5_bsypFUM-unsplash-1024x683.jpg" class="img-fluid"/>
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#!" class="btn btn-primary">Button</a>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="col-md-3 d-none d-lg-block"><div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://asterisc.in/wp-content/uploads/2020/07/hack-capital-uv5_bsypFUM-unsplash-1024x683.jpg" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+        </div>
+        </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"><div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="https://asterisc.in/wp-content/uploads/elementor/thumbs/web_devleop-p8bku2ad2qvcm5rbcy4hhih6b70ykq8tpf39w48jt6.png" class="img-fluid"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-none d-lg-block"><div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="https://asterisc.in/wp-content/uploads/elementor/thumbs/web_devleop-p8bku2ad2qvcm5rbcy4hhih6b70ykq8tpf39w48jt6.png" class="img-fluid"/>
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#!" class="btn btn-primary">Button</a>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="col-md-4 d-none d-lg-block"><div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://asterisc.in/wp-content/uploads/elementor/thumbs/web_devleop-p8bku2ad2qvcm5rbcy4hhih6b70ykq8tpf39w48jt6.png" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+        </div>
+        </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <!-- Inner -->
+    </div>
+<!-- Carousel wrapper -->
+
+    </div>
+
+
+
+
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -173,7 +528,7 @@
       <!-- Carousel wrapper -->
 
       <div
-        id="carouselMultiItemExample"
+        id="carouselMultiItemExample0"
         class="carousel slide carousel-dark text-center"
         data-mdb-ride="carousel"
       >
@@ -444,7 +799,7 @@
           <button
             class="carousel-control-prev position-relative"
             type="button"
-            data-mdb-target="#carouselMultiItemExample"
+            data-mdb-target="#carouselMultiItemExample0"
             data-mdb-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -453,7 +808,7 @@
           <button
             class="carousel-control-next position-relative"
             type="button"
-            data-mdb-target="#carouselMultiItemExample"
+            data-mdb-target="#carouselMultiItemExample0"
             data-mdb-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -469,7 +824,7 @@
 
 
     
-      <div class="container"></div>
+  
 
 
 
@@ -478,8 +833,8 @@
 
 
     <!-- Footer -->
-    <div class="container">
-      <footer class="text-center text-lg-start bg-white text-muted">
+    <div class="container rounded-top ">
+      <footer class="text-center text-lg-start bg-white text-muted rounded-top  border ">
         <!-- Section: Social media -->
         <section
           class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
@@ -521,10 +876,10 @@
             <!-- Grid row -->
             <div class="row mt-3">
               <!-- Grid column -->
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
                 <!-- Content -->
                 <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                  <i class="fas fa-gem me-3 text-secondary"></i>Asterisc Technocrat Pvt. Ltd.
                 </h6>
                 <p>
                   Here you can use rows and columns to organize your footer
@@ -535,21 +890,30 @@
               <!-- Grid column -->
 
               <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
                 <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-                <p>
-                  <a href="#!" class="text-reset">Angular</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">React</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Vue</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Laravel</a>
-                </p>
+                <h6 class="text-uppercase fw-bold mb-4 text-center">WORKING HOURS                </h6>
+          
+                <table class="table">
+
+                  <tbody>
+                    <tr>
+                      <th scope="row">Monday</th>
+                      <td>Mark</td>
+
+                    </tr>
+                    <tr>
+                      <th scope="row">Tuesday</th>
+                      <td>Jacob</td>
+
+                    </tr>
+                    <tr>
+                      <th scope="row">Wednesday</th>
+                      <td colspan="2">Larry the Bird</td>
+
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <!-- Grid column -->
 
@@ -602,11 +966,11 @@
 
         <!-- Copyright -->
         <div
-          class="text-center p-4"
+          class="text-center p-4 rounded-top bg-transparent "
           style="background-color: rgba(0, 0, 0, 0.025)"
         >
           Copyright © 2021 Asterisc.in Developed by
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+          <a class="text-reset fw-bold bg-transparent" href="https://mdbootstrap.com/"
             >Asterisc Technocrat Pvt. Ltd.</a
           >
         </div>
@@ -630,5 +994,6 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
     ></script>
+
   </body>
 </html>
